@@ -1,7 +1,11 @@
 {
   "expo": {
-    "name": "rconta",
+    "name": "Racha Conta",
     "slug": "rconta",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,11 +20,18 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,"config": {
+        "googleMobileAdsAppId": "ca-app-pub-7665396611222810~249871549"
+      },
+      "bundleIdentifier": "com.marc.rachaconta"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7665396611222810~249871549"
+      },
+      "package": "com.marc.rachaconta"
     }
   }
 }
